@@ -25,5 +25,4 @@ jobs:
             - name: Execute command on VPS
               env: 
                 SSHPASS: ${{ secrets.SSH_PASSWORD }}
-            - name: Create .ssh directory
-              run: sshpass -e ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "pm2 stop hello-app; cd hello-deploy; git pull; npm i; pm2 start hello-app;"
+              run: sshpass -e ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "pm2 stop hello-app && cd hello-deploy && git pull && npm i && pm2 start hello-app &"
