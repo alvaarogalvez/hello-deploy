@@ -78,3 +78,11 @@ curl <ip>:3000
 pm2 start server.js --name <nombre>
 ```
 
+11. Comenzamos a crear el deploy, creamos la carpeta `.github` y dentro otra carpeta llamada `workflows`, por ultimo, dentro, creamos `deploy.yml`
+
+```bash
+.github/
+└── workflows
+    └── deploy.yml
+```
+
