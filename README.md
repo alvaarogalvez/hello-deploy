@@ -15,9 +15,13 @@ gh repo list
 
 3. Creamos una app para desplegar
 
+```bash
+npm i express
+npm install express
+```
+
 ```js
 const express = require("express");
-
 const app = express();
 
 app.get("/", (req, res) => {
@@ -29,4 +33,10 @@ app.listen(3000, () => {
 });
 ```
 
+4. Añadimos `node_modules` al `.gitignore`
+5. Testeamos si la app funciona
 
+```bash
+node server.js
+curl localhost:3000
+```
