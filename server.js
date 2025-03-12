@@ -2,14 +2,6 @@ const express = require("express");
 const app = express();
 const exec = require("child_process").exec;
 
-exec("./initDatabase.sh", (error, stdout, stderr) => {
-    if (error) {
-        console.error(`exec error: ${error}`);
-        return;
-    }
-    console.log(`stdout: ${stdout}`);
-    console.error(`stderr: ${stderr}`);
-});
 // Middleware para analizar el cuerpo de la solicitud
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
