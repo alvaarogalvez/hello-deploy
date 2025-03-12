@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    res.send("Hola klk");
+    res.send("Actualizacion");
 });
 
 app.get("/run-command", (req, res) => {
