@@ -1,4 +1,3 @@
-const dotenv = require("dotenv").config();
 const passport = require("passport");
 const GithubStrategy = require("passport-github2").Strategy;
 const session = require("express-session");
