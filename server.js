@@ -52,7 +52,6 @@ const middlewareAuth = (req, res, next) => {
         return res.redirect("/");
     }
 }
-app.use(middlewareAuth);
 
 app.get("/", (req, res) => {
     const html = `
@@ -71,23 +70,17 @@ app.get("/auth/github/callback", passport.authenticate('github', { failureRedire
     }
 );
 
-app.get("/profile", (req, res) => {
-    if(!req.isAuthenticated()) {
-        return res.redirect("/");
-    }
+app.get("/profile", middlewareAuth, (req, res) => {
     const html = `Hola ${req.user.username || req.user.displayName}`
     res.send(html)
 })
 
-app.get("/recon", (req, res) => {
-    if (!req.isAuthenticated()) {
-        return res.redirect("/");
-    }
+app.get("/recon", middlewareAuth, (req, res) => {
     const html = `aqui ira mi recon`
     res.send(html)
 })
 
-app.get("/run-command", (req, res) => {
+app.get("/run-command", middlewareAuth, (req, res) => {
     exec("touch test", (error, stdout, stderr) => {
         if (error) {
             console.error(`exec error: ${error}`);
@@ -99,7 +92,7 @@ app.get("/run-command", (req, res) => {
     });
 });
 
-app.post("/recon", (req, res) => {
+app.post("/recon", middlewareAuth, (req, res) => {
     console.log("Received request to /recon");
     const domain = req.body.domain || req.query.domain;
     const APIKEY = req.body.APIKEY || req.query.APIKEY;
