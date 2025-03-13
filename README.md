@@ -168,11 +168,14 @@ app.get('/profile', (req, res) => {
 Podemos reutilizar el metodo `isAuthenticated` en un middleware:
 
 ```js
-function isAuthenticated(req, res, next) {
+const middlewareAuth = (req, res, next) => {
     if (req.isAuthenticated()) {
+        console.log("User is authenticated");
         return next();
+    } else {
+        console.log("User is not authenticated");
+        return res.redirect("/");
     }
-    res.redirect('/');
 }
 ```
 
