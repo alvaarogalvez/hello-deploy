@@ -1,23 +1,24 @@
-   Domain Name: EXAMPLE.COM
-   Registry Domain ID: 2336799_DOMAIN_COM-VRSN
-   Registrar WHOIS Server: whois.iana.org
-   Registrar URL: http://res-dom.iana.org
-   Updated Date: 2024-08-14T07:01:34Z
-   Creation Date: 1995-08-14T04:00:00Z
-   Registry Expiry Date: 2025-08-13T04:00:00Z
-   Registrar: RESERVED-Internet Assigned Numbers Authority
-   Registrar IANA ID: 376
-   Registrar Abuse Contact Email:
-   Registrar Abuse Contact Phone:
-   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
-   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
-   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
-   Name Server: A.IANA-SERVERS.NET
-   Name Server: B.IANA-SERVERS.NET
-   DNSSEC: signedDelegation
-   DNSSEC DS Data: 370 13 2 BE74359954660069D5C63D200C39F5603827D7DD02B56F120EE9F3A86764247C
+   Domain Name: MERCADONA.COM
+   Registry Domain ID: 610435_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.ascio.com
+   Registrar URL: http://www.ascio.com
+   Updated Date: 2023-09-20T09:30:03Z
+   Creation Date: 1997-04-11T04:00:00Z
+   Registry Expiry Date: 2025-04-12T04:00:00Z
+   Registrar: Ascio Technologies, Inc. Danmark - Filial af Ascio technologies, Inc. USA
+   Registrar IANA ID: 106
+   Registrar Abuse Contact Email: abuse@ascio.com
+   Registrar Abuse Contact Phone: +1.4165350123
+   Domain Status: ok https://icann.org/epp#ok
+   Name Server: ARTEMIS.TTD.NET
+   Name Server: MINERVA.TTD.NET
+   Name Server: NS-CLOUD-A1.GOOGLEDOMAINS.COM
+   Name Server: NS-CLOUD-A2.GOOGLEDOMAINS.COM
+   Name Server: NS-CLOUD-A3.GOOGLEDOMAINS.COM
+   Name Server: NS-CLOUD-A4.GOOGLEDOMAINS.COM
+   DNSSEC: unsigned
    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of whois database: 2025-03-13T17:14:33Z <<<
+>>> Last update of whois database: 2025-03-13T18:07:55Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -54,14 +55,94 @@ reserves the right to modify these terms at any time.
 
 The Registry database contains ONLY .COM, .NET, .EDU domains and
 Registrars.
-% IANA WHOIS server
-% for more information on IANA, visit http://www.iana.org
-% This query returned 1 object
+Domain Name: mercadona.com
+Registry Domain ID: 610435_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.ascio.com
+Registrar URL: http://www.ascio.com 
+Updated Date: 2023-07-22T21:29:29Z
+Creation Date: 1997-04-11T00:00:00Z
+Registrar Registration Expiration Date: 2025-04-12T00:00:00Z
+Registrar: Ascio Technologies, Inc
+Registrar IANA ID: 106
+Registrar Abuse Contact Email: abuse@ascio.com
+Registrar Abuse Contact Phone: +44 (20) 81583881
+Domain Status: OK https://icann.org/epp#ok
 
-domain:       EXAMPLE.COM
+Registry Registrant ID: Not Disclosed
+Registrant Name: Not Disclosed
+Registrant Organization: Not Disclosed
+Registrant Street: Not Disclosed
+Registrant City: Not Disclosed 
+Registrant State/Province: Valencia
+Registrant Postal Code: Not Disclosed
+Registrant Country: ES
+Registrant Phone: Not Disclosed
+Registrant Phone Ext: Not Disclosed
+Registrant Fax: Not Disclosed
+Registrant Fax Ext: Not Disclosed
+Registrant Email: https://whoiscontact.ascio.com?domainname=mercadona.com
 
-organisation: Internet Assigned Numbers Authority
+Registry Admin ID: Not Disclosed
+Admin Name: Not Disclosed
+Admin Organization: Not Disclosed
+Admin Street: Not Disclosed
+Admin City: Not Disclosed
+Admin State/Province: Not Disclosed
+Admin Postal Code: Not Disclosed
+Admin Country: Not Disclosed
+Admin Phone: Not Disclosed
+Admin Phone Ext: Not Disclosed
+Admin Fax: Not Disclosed
+Admin Fax Ext: Not Disclosed
+Admin Email: Not Disclosed
 
-created:      1992-01-01
-source:       IANA
+Registry Tech ID: Not Disclosed
+Tech Name: Not Disclosed
+Tech Organization: Not Disclosed
+Tech Street: Not Disclosed
+Tech City: Not Disclosed 
+Tech State/Province: Not Disclosed
+Tech Postal Code: Not Disclosed
+Tech Country: Not Disclosed
+Tech Phone: Not Disclosed
+Tech Phone Ext: Not Disclosed
+Tech Fax: Not Disclosed  
+Tech Fax Ext: Not Disclosed
+Tech Email: Not Disclosed
+
+Name Server: ARTEMIS.TTD.NET
+Name Server: minerva.ttd.net
+Name Server: ns-cloud-a1.googledomains.com
+Name Server: ns-cloud-a2.googledomains.com
+Name Server: ns-cloud-a3.googledomains.com
+Name Server: ns-cloud-a4.googledomains.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: https://icann.org/wicf
+>>> Last update of WHOIS database: 2025-03-13T18:08:21Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+The data in Ascio Technologies' WHOIS database is provided 
+by Ascio Technologies for information purposes only. By submitting 
+a WHOIS query, you agree that you will use this data only for lawful 
+purpose. In addition, you agree not to:
+(a) use the data to allow, enable, or otherwise support any marketing
+activities, regardless of the medium used. Such media include but are 
+not limited to e-mail, telephone, facsimile, postal mail, SMS, and
+wireless alerts; or
+(b) use the data to enable high volume, automated, electronic processes
+that send queries or data to the systems of any Registry Operator or 
+ICANN-Accredited registrar, except as reasonably necessary to register 
+domain names or modify existing registrations.
+(c) sell or redistribute the data except insofar as it has been 
+incorporated into a value-added product or service that does not permit
+the extraction of a substantial portion of the bulk data from the value-added
+product or service for use by other parties.
+Ascio Technologies reserves the right to modify these terms at any time.
+Ascio Technologies cannot guarantee the accuracy of the data provided.
+By accessing and using Ascio Technologies WHOIS service, you agree to these terms.
+of access to the Whois database. These terms may be subject to modification
+at any time without notice.
+
+**NOTICE** This WHOIS server is being retired. Please use our RDAP service instead.
 

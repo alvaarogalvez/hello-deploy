@@ -12,20 +12,26 @@
         <button type="submit">Submit</button>
     </form>
 <script>
-    fetch('http://localhost:3000/recon', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: JSON.stringify({
-                domain: 'example.com',
-                APIKEY: '1234'
+    const button = document.querySelector('button');
+    button.addEventListener("click", (event) => {
+        event.preventDefault();
+        console.log("Button clicked");
+        const domain = document.getElementById('target').value;
+        fetch('http://localhost:3000/recon', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    domain: domain,
+                    APIKEY: '1234'
+                })
             })
-        })
             .then(response => response.text())
             .then(data => console.log(data))
             .catch(error => console.error('Error:', error));
+    })
 </script>
 </body>
 </html>
