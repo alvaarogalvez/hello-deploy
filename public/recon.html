@@ -6,6 +6,7 @@
     <title>Recon</title>
 </head>
 <body>
+    <h1>recon</h1>
     <form>
         <label for="target">Target:</label>
         <input type="text" id="target" name="target" required>
@@ -17,7 +18,7 @@
         event.preventDefault();
         console.log("Button clicked");
         const domain = document.getElementById('target').value;
-        fetch('http://localhost:3000/recon', {
+        fetch('http://172.233.109.236:3000/recon', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
