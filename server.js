@@ -1,3 +1,4 @@
+const dotenv = require("dotenv").config();
 const passport = require("passport");
 const GithubStrategy = require("passport-github2").Strategy;
 const session = require("express-session");
@@ -7,6 +8,7 @@ const exec = require("child_process").exec;
 app.use(express.static("public"));
 const CLIENT_ID_GITHUB = process.env.CLIENT_ID_GITHUB;
 const CLIENT_SECRET_GITHUB = process.env.CLIENT_SECRET_GITHUB;
+const APIKEY = process.env.APIKEY;
 console.log(`CLIENT_ID_GITHUB: ${CLIENT_ID_GITHUB}`);
 console.log(`CLIENT_SECRET_GITHUB: ${CLIENT_SECRET_GITHUB}`);
 
